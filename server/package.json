@@ -1,0 +1,38 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "This is a backend for TaskX app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jagadee93/TaskX.git"
+  },
+  "keywords": [
+    "task",
+    "list",
+    "todo"
+  ],
+  "author": "Jagadeesh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jagadee93/TaskX/issues"
+  },
+  "homepage": "https://github.com/jagadee93/TaskX#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "date-fns": "^2.30.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.4"
+  }
+}

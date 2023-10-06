@@ -1,0 +1,239 @@
+@use "media" as bp;
+
+
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+
+    @include bp.xs {
+        width: 90%;
+    }
+
+    @include bp.md {
+        width: 95%;
+    }
+
+    position: relative;
+}
+
+
+
+
+
+// flex styles 
+.row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    @include bp.md {
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+}
+
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.fixed-row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+
+
+
+.width-100 {
+    width: 100%;
+}
+
+.flex-spb {
+    justify-content: space-between;
+}
+
+
+.f-center {
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.f-1 {
+    flex: 1;
+}
+
+.a-center {
+    align-items: center;
+}
+
+
+.gap-0 {
+    gap: 0.25em;
+}
+
+
+.gap-1 {
+    gap: 0.5em;
+
+    @include bp.md {
+        gap: 1em;
+    }
+
+}
+
+.gap-2 {
+    gap: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// font styles 
+
+
+.font-bold {
+    font-weight: 600;
+}
+
+.font-bolder {
+    font-weight: bolder;
+}
+
+.font-regular {
+    font-weight: normal;
+}
+
+.font-uppercase {
+    text-transform: uppercase;
+}
+
+.center {
+    text-align: center;
+}
+
+
+
+
+.font-dark {
+    color: #0000;
+
+}
+
+
+
+.font-light {
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+.font-20 {
+    font-size: 1.25rem; // 20px
+}
+
+
+
+
+
+
+.font-24 {
+    font-size: 1.5rem; // 24px
+}
+
+
+
+
+
+//margin
+
+
+.mtb-1 {
+    margin: 1em 0;
+}
+
+.mtb-2 {
+    margin: 0.5em 0;
+}
+
+
+.font-3 {
+    font-size: 3rem;
+}
+
+//padding 
+
+
+.pb-0 {
+    padding-bottom: 0.5em;
+}
+
+
+
+.ptb-1 {
+    padding: 1em 0;
+}
+
+.ptb-2 {
+    padding: 2em 0;
+}
+
+
+
+
+
+
+
+.p-1 {
+    padding: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+//section styling
